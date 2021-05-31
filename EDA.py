@@ -11,7 +11,10 @@ import seaborn as sns
 
 
 # read dataset
-dataset = pd.read_csv('creditcard.csv')
+try:
+    dataset = pd.read_csv('creditcard.csv')
+except:
+    print('Unable to find data on folder, please download data from the available link ')
 
 # frst five rows
 first_5_columns = dataset.head()
