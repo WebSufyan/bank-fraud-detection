@@ -65,7 +65,7 @@ cost function is decreasing which is a good sign.
 
 
 
-########## trying out dfferent cost function threshold and measuring accuracy on a data tha model never seen ##############
+########## testing on test set, trying out dfferent cost function threshold and measuring accuracy on a data tha model never seen ##############
 
 threshold: 0.4 - accuracy: 64.43%
 
