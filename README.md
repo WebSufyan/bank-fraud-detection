@@ -24,6 +24,9 @@ it will be more likely a fraud transaction.
 
 
 
+
+
+
 ######### training and epochs #########
 
 training loss: 2904.607421875 - epoch number 0
@@ -58,6 +61,10 @@ training loss: 0.7937610149383545 - epoch number 28
 
 cost function is decreasing which is a good sign.
 
+
+
+
+
 ########## trying out dfferent cost function threshold and measuring accuracy on a data tha model never seen ##############
 
 threshold: 0.4 - accuracy: 64.43%
@@ -85,6 +92,9 @@ threshold: 2.5 - accuracy: 90.55%
 threshold: 3 - accuracy: 90.14%
 
 threshold: 3.4 - accuracy: 90.14%
+
+
+
 
 
 
